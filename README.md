@@ -13,6 +13,8 @@
   <img src="https://komarev.com/ghpvc/?username=GowthamAI-ENGR&style=flat-square&color=70a5fd&label=Profile+Views" />
 </p>
 
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+
 </div>
 
 <br>
@@ -119,10 +121,41 @@ print(me.motto())
 
 <div align="center">
 
-| Project | Stack | Highlights |
-|---|---|---|
-| **[Maternal Health Risk Prediction System](https://github.com/GowthamAI-ENGR)** | Python · scikit-learn · Classification | ML system predicting high/medium/low delivery risk from blood pressure, glucose, and heart rate data; evaluated with accuracy, precision, recall, and F1-score to support early clinical intervention |
-| **[Crop Recommendation System](https://github.com/GowthamAI-ENGR)** | Python · Random Forest · Decision Trees | Recommends optimal crops from soil N-P-K levels, temperature, humidity, pH, and rainfall; achieved high prediction accuracy across multiple crop classes for smart-farming deployment |
+| Project | Stack | Highlights | Live Demo |
+|---|---|---|---|
+| **[Maternal Health Risk Prediction System](https://github.com/GowthamAI-ENGR)** | Python · scikit-learn · Classification | ML system predicting high/medium/low delivery risk from blood pressure, glucose, and heart rate data; evaluated with accuracy, precision, recall, and F1-score to support early clinical intervention | [![Streamlit](https://img.shields.io/badge/Open%20App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://pregnancyriskprediction-1222.streamlit.app/) |
+| **[Crop Recommendation System](https://github.com/GowthamAI-ENGR)** | Python · Random Forest · Decision Trees | Recommends optimal crops from soil N-P-K levels, temperature, humidity, pH, and rainfall; achieved high prediction accuracy across multiple crop classes for smart-farming deployment | [![Streamlit](https://img.shields.io/badge/Open%20App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://crop-recommendation-system-2222.streamlit.app/) |
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🌐 Try Them Live
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🩺 Maternal Health Risk Prediction**
+
+Predicts pregnancy delivery risk (high / medium / low) from vital health parameters, giving healthcare workers an early-warning signal for intervention.
+
+[![Open App](https://img.shields.io/badge/▶_Launch_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://pregnancyriskprediction-1222.streamlit.app/)
+
+</td>
+<td width="50%" valign="top">
+
+**🌾 Crop Recommendation System**
+
+Suggests the optimal crop to plant based on soil N-P-K levels, temperature, humidity, pH, and rainfall — built for smart-farming use cases.
+
+[![Open App](https://img.shields.io/badge/▶_Launch_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://crop-recommendation-system-2222.streamlit.app/)
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -157,6 +190,53 @@ print(me.motto())
 | B.Sc. Computer Science | Srimad Andavan Arts & Science College | 2022 – 2025 |
 
 </div>
+
+<br>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/GowthamAI-ENGR/GowthamAI-ENGR/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+
+</div>
+
+> ⚙️ **One-time setup required:** this animation generates itself from your contribution graph via a GitHub Action — it won't render until you add the workflow below to this same profile repo (`GowthamAI-ENGR/GowthamAI-ENGR`) under `.github/workflows/snake.yml`, then push once to trigger it.
+
+<details>
+<summary>📄 Click to view <code>.github/workflows/snake.yml</code></summary>
+
+```yaml
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: GowthamAI-ENGR
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
 
 <br>
 
