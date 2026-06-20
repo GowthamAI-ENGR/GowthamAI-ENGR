@@ -193,58 +193,6 @@ Suggests the optimal crop to plant based on soil N-P-K levels, temperature, humi
 
 <br>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/GowthamAI-ENGR/GowthamAI-ENGR/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
-
-</div>
-
-> ⚙️ **One-time setup required:** this animation generates itself from your contribution graph via a GitHub Action — it won't render until you add the workflow below to this same profile repo (`GowthamAI-ENGR/GowthamAI-ENGR`) under `.github/workflows/snake.yml`, then push once to trigger it.
-
-<details>
-<summary>📄 Click to view <code>.github/workflows/snake.yml</code></summary>
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: GowthamAI-ENGR
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
-<br>
-
 ## 📚 Currently Learning
 
 ```
