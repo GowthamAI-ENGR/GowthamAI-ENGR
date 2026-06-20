@@ -201,10 +201,7 @@ Suggests the optimal crop to plant based on soil N-P-K levels, temperature, humi
 
 </div>
 
-> ⚙️ **One-time setup required:** this animation generates itself from your contribution graph via a GitHub Action — it won't render until you add the workflow below to this same profile repo (`GowthamAI-ENGR/GowthamAI-ENGR`) under `.github/workflows/snake.yml`, then push once to trigger it.
 
-<details>
-<summary>📄 Click to view <code>.github/workflows/snake.yml</code></summary>
 
 ```yaml
 name: Generate Snake Animation
