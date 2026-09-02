@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/gowtham-ravi-12ph27b2532a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://gowtham-ravichandran.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://gowthamai-engr.github.io/my-portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="mailto:gowtham120205@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=GowthamAI-ENGR&style=flat-square&color=70a5fd&label=Profile+Views" />
 </p>
